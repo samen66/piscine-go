@@ -1,0 +1,3 @@
+find * | grep -P "((.*\/a[^\/]*$)|(^a\w*$))"
+find -type f | grep -P "(.*z$)"
+find -type f | grep -P "((.*\/z[^\/\s]*a\!$)|(^z[^\/\s]*a\!$))"
